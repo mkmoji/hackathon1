@@ -1,0 +1,450 @@
+
+
+/*my pageCSS*/
+.body0 {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(120deg, #f0f8ff, #e6e6fa); /* 背景グラデーション */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container0 {
+    max-width: 400px; /* コンテナの幅を制限 */
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* コンテナの背景色を軽く透明化 */
+    border-radius: 15px; /* 角を丸く */
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* 影を追加 */
+}
+
+.h0 {
+    color: #4a4e69;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.mura{
+    font-family: "MS 明朝";
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+	background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+	background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+	background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+    font-size: 45px;
+}
+
+.p01, .p02, .p03, .p04 {
+    margin: 10px 0;
+    color: #222; /* 段落の色を統一 */
+}
+
+.button0s Link {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+}
+
+.button0 {
+    background-color: #81a4fd; /* ボタンの色を変更 */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px; /* ボタンの角を丸く */
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* 影を追加 */
+    transition: 0.3s; /* トランジション効果 */
+}
+
+.button0:hover {
+    background-color: #6a8af1; /* ホバー時の色 */
+    transform: scale(1.05); /* ホバー時の拡大 */
+}
+
+{
+    background-color: #89ff89; /* 任意の色に変更。この場合は鮮やかなオレンジ色 */
+    color: #fff; /* 文字色を白に変更 */
+}
+
+/*EVENT register page*/
+
+
+.body11 {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(120deg, #f9f6e7, #ffffff);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h11 {
+    color: #555;
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.p11 {
+    margin: 10px 0;
+    color: #666;
+}
+
+.div11 {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 200, 0.9);
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.h13 {
+    color: #555;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type='file'] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+.textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button11 {
+    background-color: #ffe600;
+    color: #333;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    margin: 10px 0;
+}
+
+.button11:hover {
+    background-color: #fdd700;
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+Link {
+    display: block;
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #d4af37; /* 枠線を黄色に */
+    background-color: #fcf9e3; /* 背景色を淡い黄色に */
+    border-radius: 15px; /* 枠の丸みを大きく */
+    font-size: 16px;
+    color: #333; /* 文字色を暗く */
+    transition: all 0.3s; /* アニメーション効果の適用 */
+    letter-spacing: 1px; /* 文字間隔を広げる */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* 影を柔らかく */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus {
+    border-color: #d4af37; /* フォーカス時の枠線の色 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* フォーカス時の影を強調 */
+    outline: none; /* フォーカス時のデフォルトのアウトラインを削除 */
+}
+
+/*GoodPage*/
+
+.header
+{
+    background-color: #89ff89; /* 任意の色に変更。この場合は鮮やかなオレンジ色 */
+    color: #fff; /* 文字色を白に変更 */
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); /* 影を薄く */
+
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(120deg, #e0f7fa, #f0f8ff); /* 薄い色のグラデーション */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.div31 {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* コンテナの背景をより明るく */
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); /* 影を薄く */
+}
+
+.h31, .h32, .h33 {
+    color: #333; /* タイトルの色を暗く */
+    margin: 10px 0;
+}
+
+.h31 { font-size: 36px; }
+.h32 { font-size: 28px; }
+.h33 { font-size: 20px; }
+
+.p31, .p32 {
+    margin: 10px 0;
+    color: #444; /* 段落の色を暗く */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bbb; /* ボーダーを薄く */
+    border-radius: 5px;
+}
+
+.button3 {
+    background-color: #b0e0e6; /* ボタンの色を薄く */
+    color: #333; /* 文字色を暗く */
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); /* 影を薄く */
+    transition: 0.3s;
+    margin: 10px 0;
+}
+
+.button3:hover {
+    background-color: #a6d8de; /* ホバー時の色を薄く */
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.input3[type="text"],
+.input3[type="number"],
+.input3[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #32a852; /* 枠線を緑に */
+    background-color: #e3f9f3; /* 背景色を淡い緑に */
+    border-radius: 15px; /* 枠の丸みを大きく */
+    font-size: 16px;
+    color: #333; /* 文字色を暗く */
+    transition: all 0.3s; /* アニメーション効果の適用 */
+    letter-spacing: 1px; /* 文字間隔を広げる */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* 影を柔らかく */
+}
+
+.input3[type="text"]:focus,
+.input3[type="number"]:focus,
+.input3[type="file"]:focus {
+    border-color: #ff8000; /* フォーカス時の枠線の色を青に */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* フォーカス時の影を強調 */
+    outline: none; /* フォーカス時のデフォルトのアウトラインを削除 */
+}
+
+/*buy page*/
+.container21
+{
+    background-color: #ffa3a3; /* 薄い赤色 */
+    color: #fff; /* 文字色を白に変更 */
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.body21 {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(120deg, #ffe6e6, #f0f8ff); /* 薄い赤のグラデーション */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.div21 {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.input2[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #f08080; /* 薄い赤色 */
+    background-color: #fce4e4; /* 薄い赤の背景色 */
+    border-radius: 15px;
+}
+
+.button2 {
+    background-color: #f08080; /* 薄い赤色 */
+    color: #333;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); /* 影を薄く */
+    transition: 0.3s;
+    margin: 10px 0;
+}
+
+.button2:hover {
+    background-color: #e87070; /* ホバー時の色を少し暗く */
+    transform: scale(1.05);
+}
+
+.p20 {
+    margin: 10px 0;
+    color: #444;
+}
+
+/*EventHis*/
+
+.header-container {
+    background-color: #ffa500; /* オレンジ色 */
+    color: #fff; /* 文字色を白に変更 */
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); /* 影を薄く */
+}
+
+.body40 {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(120deg, #ffe4b5, #ffebcd); /* オレンジ色のグラデーション */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* 画面の高さに合わせる */
+}
+
+.button4 {
+    background-color: #ff7f50; /* オレンジ色のボタン */
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 20px 0;
+    max-width: 200px; /* ボタンの最大幅 */
+}
+
+.button4:hover {
+    background-color: #ff6347; /* ホバー時の色を少し暗く */
+    transform: scale(1.05);
+}
+
+.p41, .h41 {
+    margin: 10px 0;
+    color: #333; /* 文字色 */
+}
+
+/*テーブル*/
+.table11 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.table11 th, .table11 td {
+    border: 1px solid #000000;
+    padding: 15px 40px;
+}
+
+.table11 th {
+    background-color: #999999;
+    color: #333;
+}
+
+.table11 tr:nth-child(even) {
+    background-color: #fcf9e3;
+}
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-box11 {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #d4af37;
+    background-color: #fcf9e3;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #333;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
