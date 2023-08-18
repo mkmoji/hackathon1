@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Web3 from 'web3';
 import MyContract from './build/SightseeingToken.json';
+//import classes from './MyPage.css';
 
 
 const web3 = new Web3(window.ethereum);

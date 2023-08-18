@@ -9,6 +9,8 @@ import EHis from './EventHis.js';
 import BPage from './BuyPage.js';
 import GPage from './GoodsPage.js';
 import LPage from './ListenPage';
+import './mains.css';
+
 
 const web3 = new Web3(window.ethereum);
 const contractABI = MyContract.abi;
